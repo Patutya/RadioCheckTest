@@ -16,7 +16,7 @@ namespace TestPage
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new gutanwr3());
+            Application.Run(new saemocio());
         }
     }
 }

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace TestPage
 {
-    public partial class gutanwr3 : Form
+    public partial class saemocio : Form
     {
         int fin = 0;
-        public gutanwr3()
+        public saemocio()
         {
             InitializeComponent();
         }

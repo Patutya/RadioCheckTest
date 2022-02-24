@@ -1,6 +1,6 @@
 ﻿namespace TestPage
 {
-    partial class gutanwr3
+    partial class saemocio
     {
         /// <summary>
         /// Required designer variable.
@@ -792,7 +792,7 @@
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
-            // gutanwr3
+            // saemocio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -813,8 +813,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "gutanwr3";
-            this.Text = "Form1";
+            this.Name = "saemocio";
+            this.Text = "emociuri sakontrolo";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
