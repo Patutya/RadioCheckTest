@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Label label13;
+            System.Windows.Forms.RadioButton radioButton1;
             this.panel1 = new System.Windows.Forms.Panel();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.gudAnswr1 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.question1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -94,6 +94,7 @@
             this.pasux = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             label13 = new System.Windows.Forms.Label();
+            radioButton1 = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -107,11 +108,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label13.Location = new System.Drawing.Point(7, 21);
+            label13.Name = "label13";
+            label13.Size = new System.Drawing.Size(232, 16);
+            label13.TabIndex = 1;
+            label13.Text = "რომელ წელს ჩაეშვა c#  ხმარებაში ";
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.gudAnswr1);
-            this.panel1.Controls.Add(this.radioButton1);
+            this.panel1.Controls.Add(radioButton1);
             this.panel1.Controls.Add(this.question1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(497, 12);
@@ -126,7 +137,6 @@
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(67, 17);
             this.radioButton3.TabIndex = 4;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Overflow";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
@@ -137,20 +147,18 @@
             this.gudAnswr1.Name = "gudAnswr1";
             this.gudAnswr1.Size = new System.Drawing.Size(88, 17);
             this.gudAnswr1.TabIndex = 3;
-            this.gudAnswr1.TabStop = true;
             this.gudAnswr1.Text = "ArgumentNull";
             this.gudAnswr1.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(10, 70);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(89, 17);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "DivideByZero";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new System.Drawing.Point(10, 70);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new System.Drawing.Size(89, 17);
+            radioButton1.TabIndex = 2;
+            radioButton1.Text = "DivideByZero";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // question1
             // 
@@ -536,16 +544,6 @@
             this.gudanswr7.Text = "2002";
             this.gudanswr7.UseVisualStyleBackColor = true;
             // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label13.Location = new System.Drawing.Point(7, 21);
-            label13.Name = "label13";
-            label13.Size = new System.Drawing.Size(232, 16);
-            label13.TabIndex = 1;
-            label13.Text = "რომელ წელს ჩაეშვა c#  ხმარებაში ";
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -846,7 +844,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton gudAnswr1;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label question1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;

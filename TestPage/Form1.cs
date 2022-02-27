@@ -13,6 +13,7 @@ namespace TestPage
     public partial class saemocio : Form
     {
         int fin = 0;
+        int j = 0;
         public saemocio()
         {
             InitializeComponent();
@@ -20,47 +21,51 @@ namespace TestPage
 
         private void submit_Click(object sender, EventArgs e)
         {
-            if (true == gudAnswr1.Checked)
+            if (j == 0)
             {
-                fin++;
+                if (true == gudAnswr1.Checked)
+                {
+                    fin++;
+                }
+                if (true == gutanswr2.Checked)
+                {
+                    fin++;
+                }
+                if (true == gudanswr3.Checked)
+                {
+                    fin++;
+                }
+                if (true == gudanswr4.Checked)
+                {
+                    fin++;
+                }
+                if (true == gudanswr5.Checked)
+                {
+                    fin++;
+                }
+                if (true == gutanswr6.Checked)
+                {
+                    fin++;
+                }
+                if (true == gudanswr7.Checked)
+                {
+                    fin++;
+                }
+                if (true == gudanswr8.Checked)
+                {
+                    fin++;
+                }
+                if (true == gudanswer9.Checked)
+                {
+                    fin++;
+                }
+                if (true == gudanswer10.Checked)
+                {
+                    fin++;
+                }
+                pasux.Text = (fin.ToString() + "/10");
+                j++;
             }
-            if (true == gutanswr2.Checked)
-            {
-                fin++;
-            }
-            if (true == gudanswr3.Checked)
-            {
-                fin++;
-            }
-            if (true == gudanswr4.Checked)
-            {
-                fin++;
-            }
-            if (true == gudanswr5.Checked)
-            {
-                fin++;
-            }
-            if (true == gutanswr6.Checked)
-            {
-                fin++;
-            }
-            if (true == gudanswr7.Checked)
-            {
-                fin++;
-            }
-            if (true == gudanswr8.Checked)
-            {
-                fin++;
-            }
-            if (true == gudanswer9.Checked)
-            {
-                fin++;
-            }
-            if (true == gudanswer10.Checked)
-            {
-                fin++;
-            }
-            pasux.Text = (fin.ToString() + "/10");
         }
     }
 }
