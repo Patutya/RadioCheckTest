@@ -89,10 +89,13 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.namebox = new System.Windows.Forms.TextBox();
             this.submit = new System.Windows.Forms.Button();
             this.pasux = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.RESET = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Exit = new System.Windows.Forms.Button();
             label13 = new System.Windows.Forms.Label();
             radioButton1 = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
@@ -117,6 +120,16 @@
             label13.Size = new System.Drawing.Size(232, 16);
             label13.TabIndex = 1;
             label13.Text = "რომელ წელს ჩაეშვა c#  ხმარებაში ";
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new System.Drawing.Point(10, 70);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new System.Drawing.Size(89, 17);
+            radioButton1.TabIndex = 2;
+            radioButton1.Text = "DivideByZero";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -149,16 +162,6 @@
             this.gudAnswr1.TabIndex = 3;
             this.gudAnswr1.Text = "ArgumentNull";
             this.gudAnswr1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new System.Drawing.Point(10, 70);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new System.Drawing.Size(89, 17);
-            radioButton1.TabIndex = 2;
-            radioButton1.Text = "DivideByZero";
-            radioButton1.UseVisualStyleBackColor = true;
             // 
             // question1
             // 
@@ -753,13 +756,13 @@
             this.label22.TabIndex = 15;
             this.label22.Text = "სახელი გვარი V";
             // 
-            // textBox1
+            // namebox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(21, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 21);
-            this.textBox1.TabIndex = 16;
+            this.namebox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namebox.Location = new System.Drawing.Point(21, 62);
+            this.namebox.Name = "namebox";
+            this.namebox.Size = new System.Drawing.Size(227, 21);
+            this.namebox.TabIndex = 16;
             // 
             // submit
             // 
@@ -790,14 +793,46 @@
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
+            // RESET
+            // 
+            this.RESET.Location = new System.Drawing.Point(5, 567);
+            this.RESET.Name = "RESET";
+            this.RESET.Size = new System.Drawing.Size(75, 23);
+            this.RESET.TabIndex = 20;
+            this.RESET.Text = "RESET";
+            this.RESET.UseVisualStyleBackColor = true;
+            this.RESET.Click += new System.EventHandler(this.RESET_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(86, 567);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "Resets whole program";
+            // 
+            // Exit
+            // 
+            this.Exit.Location = new System.Drawing.Point(407, 567);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(75, 23);
+            this.Exit.TabIndex = 22;
+            this.Exit.Text = "Exit";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
             // saemocio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1185, 601);
+            this.Controls.Add(this.Exit);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.RESET);
             this.Controls.Add(this.pasux);
             this.Controls.Add(this.submit);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.namebox);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.panel10);
@@ -900,10 +935,13 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox namebox;
         private System.Windows.Forms.Button submit;
         private System.Windows.Forms.Label pasux;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button RESET;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Exit;
     }
 }
 
